@@ -1,3 +1,5 @@
 .DashboardContainer{
     padding: 15px;
+    display: flex;
+    flex-direction: row;
 }
