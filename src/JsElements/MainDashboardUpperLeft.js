@@ -5,7 +5,7 @@ import ProgressBar from "./ProgressBar.js";
 
 export default function MainDashboardUpperLeft(prop) {
     return (
-        <div className="Card">
+        <div className="CardL">
             <p>Solved Problems</p>
             <ProgressBar tag='Easy' num='21' den='592' perc='52.8%' color='green'/>
             <ProgressBar tag='Easy' num='21' den='592' perc='52.8%' color='yellow'/>

@@ -1,17 +1,21 @@
-.Card{
-    margin-left: 10px;
+.CardL{
     background-color: white;
     padding: 15px;
-    width: 100%;
-    height: auto;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    border-radius: 10px;
+    /* width: 100%; */
+    /* height: auto; */
 }
 
 
-@media only screen and (max-width: 1200px) {
+/* @media only screen and (max-width: 1200px) {
     .Card{
         margin-left: 10px;
         background-color: white;
         padding: 15px;
         width: 35%;
     }
-}
+} */

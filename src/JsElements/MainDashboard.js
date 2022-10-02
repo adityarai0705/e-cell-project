@@ -1,13 +1,15 @@
 import React from "react";
-// import '../CSSFiles/MainDashboard.css'
+import '../CSSFiles/MainDashboard.css'
 // import IcoElt from './IcoElt.js'
 import MainDashboardUpperLeft from "./MainDashboardUpperLeft";
+import MainDashboardUpperRight from "./MainDashboardUpperRight";
 
 
 export default function MainDashboard(prop) {
     return (
-        <>
-          <MainDashboardUpperLeft/>  
-        </>
+        <div className='UpperDashboard'>
+          <MainDashboardUpperLeft/> 
+          <MainDashboardUpperRight/>  
+        </div>
     );
 }

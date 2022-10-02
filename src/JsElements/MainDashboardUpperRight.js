@@ -5,11 +5,20 @@ import '../CSSFiles/MainDashboardUpperRight.css'
 
 export default function MainDashboardUpperRight(prop) {
     return (
-        <div className="Card">
-            <p>Solved Problems</p>
-            <ProgressBar tag='Easy' num='21' den='592' perc='52.8%' color='green'/>
-            <ProgressBar tag='Easy' num='21' den='592' perc='52.8%' color='yellow'/>
-            <ProgressBar tag='Easy' num='21' den='592' perc='52.8%' color='red'/>
+        <div className="CardR">
+            <div className="BadgeInfo">
+                <div className="BadgeCount">
+                    <p>Badges</p>
+                    <h6>0</h6>
+                </div>
+                <div className="BadgeSubInfo">
+                    <p>Locked Badges</p>
+                    <h6>Sep LeetCoding Challenge</h6>
+                </div>
+            </div>
+            <div className="BadgeIcon">
+                <h1>X</h1>
+            </div>
         </div>
     );
 }
