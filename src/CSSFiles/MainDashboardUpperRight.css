@@ -40,3 +40,19 @@
         width: 35%;
     }
 } */
+
+@media only screen and (max-width: 1200px) {
+    .CardR{
+        margin-left: 10px;
+        margin-bottom: 10px;
+        background-color: white;
+        padding: 15px;
+        /* width: 100%; */
+    }
+}
+
+@media only screen and (max-width: 840px) {
+    .CardR{
+        margin-left: 0;
+    }
+}

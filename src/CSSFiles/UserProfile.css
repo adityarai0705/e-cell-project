@@ -5,3 +5,11 @@
     padding: 15px;
     box-shadow: 0 0 15px rgb(202, 202, 202);
 }
+
+@media only screen and (max-width: 840px) {
+    .UserProfileContainer{
+        width: auto;
+        max-width: 100%;
+        margin-bottom: 15px;
+    }
+}

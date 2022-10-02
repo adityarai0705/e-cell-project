@@ -12,11 +12,18 @@
 }
 
 
-/* @media only screen and (max-width: 1200px) {
-    .Card{
+@media only screen and (max-width: 1200px) {
+    .CardL{
         margin-left: 10px;
+        margin-bottom: 10px;
         background-color: white;
         padding: 15px;
-        width: 35%;
+        /* width: 100%; */
     }
-} */
+}
+
+@media only screen and (max-width: 840px) {
+    .CardL{
+        margin-left: 0;
+    }
+}
