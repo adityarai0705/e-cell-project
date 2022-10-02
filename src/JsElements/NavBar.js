@@ -35,7 +35,7 @@ export default function NavBar( prop){
 
     if( windowWidth <= 680){
         element =
-            <div >
+            <div tyle={{boxShadow: '0 0 15px rgb(202, 202, 202)'}}>
                 <ul className="NavBarMainContainer">
                     <li className="burgermenu"><a>X</a></li>
                     <li className="logo"><a>X</a></li>
@@ -44,7 +44,7 @@ export default function NavBar( prop){
             </ div>;
     }else{
         element =
-        <div className="NavBarMainContainer">
+        <div className="NavBarMainContainer" style={{boxShadow: '0 0 15px rgb(202, 202, 202)'}}>
                 <ul>
                     <li className="logo"><a href="#">X</a></li>
                     <li><a href="#">Explore</a></li>
