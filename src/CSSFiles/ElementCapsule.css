@@ -1,0 +1,9 @@
+.element{
+    background-color: rgb(245, 245, 245);
+    border-radius: 20px;
+    padding: 5px;
+    /* text-align: center; */
+    display: flex;
+    /* justify-content: center;
+    align-items: center; */
+}

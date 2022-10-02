@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function NavBar( prop){
+export default function DropDown( prop){
     
     return(
        <>

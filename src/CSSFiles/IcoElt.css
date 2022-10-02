@@ -1,0 +1,4 @@
+.IcoEltContainer{
+    display: flex;
+    flex-direction: column;
+}
