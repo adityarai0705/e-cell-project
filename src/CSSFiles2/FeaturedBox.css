@@ -1,0 +1,22 @@
+.FeaturedBoxImage{
+    width: 305px;
+    height: 165px;
+    border-radius: 15px;
+}
+
+.FeaturedBoxBody{
+    width: 305px;
+    display: flex;
+    flex-direction: column;
+    overflow: scroll;
+    margin: 10px;
+    flex-shrink: 0;
+}
+
+.FeaturedBoxInfo{
+    text-align: left;
+
+}
+.FeaturedBoxBody::-webkit-scrollbar {
+    display: none;
+  }

@@ -9,6 +9,23 @@
     flex-shrink: 0;
 }
 
+.CorousalCardInfo{
+    height: 30%;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.CorousalCardInfo p{
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-top: auto;
+    padding-bottom: auto;
+}
+
 
 @media only screen and (max-width: 600px) {
     .CorousalCardBody{

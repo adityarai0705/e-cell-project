@@ -1,0 +1,56 @@
+.ContestBarimg{
+    width: 125px;
+    height: 60px;
+    border-radius: 10px;
+}
+
+.ContestBarContestInfo{
+    height: 60px;
+}
+
+.VirtualButton{
+    background-color: rgb(236, 236, 236);
+    border-radius: 5px;
+    color: blueviolet;
+    cursor: pointer;
+}
+
+.VirtualButton:hover{
+    background-color: rgb(219, 219, 219);
+}
+
+.ContestBarimg{
+    margin: 10px;
+} 
+.ContestBarContestInfo{
+    margin: 10px;
+} 
+.VirtualButton{
+    margin: 10px;
+    padding-left: 3px;
+    padding-right: 3px;
+}
+
+.ContestBarContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* margin: 10px; */
+}
+
+.ContestBarLeft{
+    display: flex;
+    flex-direction: row;
+}
+
+.ContestBarRight{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media only screen and (max-width: 720px) {
+    .ContestBarimg{
+        display: none;
+    }
+}
