@@ -38,6 +38,7 @@ li a:hover {
     margin: auto;
 }
 
+
 @media only screen and (max-width: 810px) {
     .premium{
         position: absolute;
@@ -60,4 +61,11 @@ li a:hover {
         flex-direction: row;
         justify-content: space-between;
     }
+}
+
+.NavicoCont{
+    height: 47px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

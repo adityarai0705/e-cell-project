@@ -1,4 +1,5 @@
 import React from "react";
+import { Outlet, Link } from "react-router-dom";
 import '../CSSFiles/Profile.css'
 
 
@@ -16,16 +17,20 @@ export default function UserProfile(prop) {
                 <p>Edit Profile</p>
             </div>
             <div className="IconNamePair">
-                <p>X</p><p>India</p>
+                <Link to="#"><img src="res/location.png" width={'22px'} height={'27px'}/></Link>
+                <p>India</p>
             </div>
             <div className="IconNamePair">
-                <p>X</p><p>MNNIT</p>
+                <Link to="#"><img src="res/bell.png" width={'22px'} height={'27px'}/></Link>
+                <p>MNNIT</p>
             </div>
             <div className="IconNamePair">
-                <p>X</p><p>Test User</p>
+                <Link to="#"><img src="res/bell.png" width={'22px'} height={'27px'}/></Link>
+                <p>Test User</p>
             </div>
             <div className="IconNamePair">
-                <p>X</p><p>test-user</p>
+                <Link to="#"><img src="res/bell.png" width={'22px'} height={'27px'}/></Link>
+                <p>test-user</p>
             </div>
         </>
     );

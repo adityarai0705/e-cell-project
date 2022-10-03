@@ -19,4 +19,10 @@
 .IconNamePair{
     display: flex;
     flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.IconNamePair p{
+    margin-left: 5px;
 }

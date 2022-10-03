@@ -38,9 +38,9 @@ export default function NavBar( prop){
         element =
             <div>
                 <ul className="NavBarMainContainer">
-                    <li className="burgermenu"><a>X</a></li>
-                    <li className="logo"><a>X</a></li>
-                    <li className="bellicon"><a href="#">U</a></li>
+                    <li className="NavicoCont"><img src="res/burger.png" width={'22px'} height={'27px'}/></li>
+                    <li className="NavicoCont"><img src="res/logo.png" width={'22px'} height={'27px'}/></li>
+                    <li className="NavicoCont"><img src="res/bell.png" width={'22px'} height={'27px'}/></li>
                 </ul>
             </ div>;
     }else{
@@ -48,13 +48,13 @@ export default function NavBar( prop){
         <div className="NavBarBG">
         <div className="NavBarMainContainer">
                 <ul>
-                    <li className="logo"><a href="#">X</a></li>
-                    <li><a href="#">Explore</a></li>
-                    <li><a href="#">Problems</a></li>
+                    <li className="NavicoCont"><img src="res/logo.png" width={'22px'} height={'27px'}/></li>
+                    <li><Link to="#">Explore</Link></li>
+                    <li><Link to="#">Problems</Link></li>
                     <li><Link to="/">Contests</Link></li>
-                    <li><a href="#">Discuss</a></li>
-                    <li><a href="#">Interview</a></li>
-                    <li><a href="#" style={{color:'orange'}}>Store</a></li>
+                    <li><Link to="#">Discuss</Link></li>
+                    <li><Link to="#">Interview</Link></li>
+                    <li><Link to="#" style={{color:'orange'}}>Store</Link></li>
                     {/* <li><a href="#">
                         <DropDown name='Interview' op1='Online Interview' op2='Assessment' />
                     </a></li>
@@ -63,10 +63,10 @@ export default function NavBar( prop){
                     </a></li> */}
                 </ul>
                 <ul>
-                    <li className="premium"><a href="#">Premium</a></li>
-                    <li className="bellicon"><a href="#">X</a></li>
-                    <li><a href="#">X</a></li>
-                    <li><Link to="/dashboard">X</Link></li>
+                    <li className="premium"><Link to="#">Premium</Link></li>
+                    <li className="NavicoCont"><Link to="#"><img src="res/bell.png" width={'22px'} height={'27px'}/></Link></li>
+                    <li className="NavicoCont"><Link to="#"><img src="res/fire.png" width={'22px'} height={'27px'}/></Link></li>
+                    <li className="NavicoCont"><Link to="/dashboard"><img src="res/profilesmall.png" width={'22px'} height={'27px'}/></Link></li>
                 </ul>
                 <Outlet/>
         </ div>
