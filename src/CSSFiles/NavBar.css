@@ -23,13 +23,19 @@ li a:hover {
     font-weight: bold;
 }
 
+.NavBarBG{
+    width: 100%;
+    background-color: white;
+    box-shadow: 0 0 15px rgb(202, 202, 202);
+}
 
 .NavBarMainContainer{
-    background-color: rgb(255, 255, 255);
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     flex-wrap: wrap;
+    max-width: 1200px;
+    margin: auto;
 }
 
 @media only screen and (max-width: 810px) {
