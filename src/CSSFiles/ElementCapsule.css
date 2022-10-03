@@ -1,6 +1,7 @@
 .element{
     background-color: rgb(245, 245, 245);
-    border-radius: 20px;
+    border-radius: 15px;
+    height: 25px;
     padding: 5px;
     /* text-align: center; */
     display: flex;

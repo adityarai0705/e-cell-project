@@ -10,17 +10,22 @@ export default function Skills(prop) {
             <div className="SkillsContainer">
                 <b><p>Advanced</p></b>
                 <div className="Skills">
-                    <ElementCapsule tag={'Backtracking'}/><p>x3</p>
+                    <div className="subSkills"><ElementCapsule tag={'Backtracking'}/><p style={{fontSize : '11px'}}>x3</p></div>
+                    
                 </div>
                 <b><p>Intermediate</p></b>
                 <div className="Skills">
-                    <ElementCapsule tag={'Tree'}/><p>x6</p>
-                    <ElementCapsule tag={'Depth First Search'}/><p>x6</p>
+                    <div className="subSkills"><ElementCapsule tag={'Tree'}/><p style={{fontSize : '11px'}}>x6</p></div>
+                    <div className="subSkills"><ElementCapsule tag={'Depth First Search'}/><p style={{fontSize : '11px'}}>x6</p></div>
+                    
+                    
                 </div>
                 <b><p>Fundamental</p></b>
                 <div className="Skills">
-                    <ElementCapsule tag={'Strings'}/><p>x1</p>
-                    <ElementCapsule tag={'Array'}/><p>x2</p>
+                    <div className="subSkills"><ElementCapsule tag={'Strings'}/><p style={{fontSize : '11px'}}>x1</p></div>
+                    <div className="subSkills"><ElementCapsule tag={'Array'}/><p style={{fontSize : '11px'}}>x2</p></div>
+                    
+                   
                 </div>
             </div>
         </>

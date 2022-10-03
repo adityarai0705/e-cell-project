@@ -3,6 +3,6 @@ import '../CSSFiles/ElementCapsule.css'
 
 export default function ElementCapsule(prop) {
     return (
-        <div className="element">{prop.tag}</div>
+        <div className="element" >{prop.tag}</div>
     );
 }
