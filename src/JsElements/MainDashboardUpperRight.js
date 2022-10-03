@@ -17,7 +17,7 @@ export default function MainDashboardUpperRight(prop) {
                 </div>
             </div>
             <div className="BadgeIcon">
-                <h1>X</h1>
+                <img src="res/badge.png" width={'70px'} height={'75px'}/>
             </div>
         </div>
     );
