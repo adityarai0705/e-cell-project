@@ -34,7 +34,7 @@ export default function NavBar( prop){
 
     let element;
 
-    if( windowWidth <= 680){
+    if( windowWidth <= 705){
         element =
             <div>
                 <ul className="NavBarMainContainer">
@@ -48,7 +48,7 @@ export default function NavBar( prop){
         <div className="NavBarBG">
         <div className="NavBarMainContainer">
                 <ul>
-                    <li className="NavicoCont"><img src="res/logo.png" width={'22px'} height={'27px'}/></li>
+                    <li className="NavicoCont logo"><img src="res/logo.png" width={'22px'} height={'27px'}/></li>
                     <li><Link to="#">Explore</Link></li>
                     <li><Link to="#">Problems</Link></li>
                     <li><Link to="/">Contests</Link></li>

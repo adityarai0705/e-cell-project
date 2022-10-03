@@ -39,19 +39,21 @@ li a:hover {
 }
 
 
-@media only screen and (max-width: 810px) {
+@media only screen and (max-width: 830px) {
     .premium{
         position: absolute;
         display: none;
     }
 }
-@media only screen and (max-width: 720px) {
+@media only screen and (max-width: 740px) {
     .logo{
         position: absolute;
+        top: -1000px;
+        left: -1000px;
         display: none;
     }
 }
-@media only screen and (max-width: 680px) {
+@media only screen and (max-width: 705px) {
     .logo{
         display: block;
         position: relative;
