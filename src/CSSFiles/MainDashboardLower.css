@@ -30,3 +30,10 @@
 .active{
     background-color: rgb( 248, 248, 250);
 }
+
+
+@media only screen and (max-width: 840px) {
+    .MainDashboardLowerContainer{
+        margin-right: 0;
+    }
+}
