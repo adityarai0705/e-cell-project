@@ -1,0 +1,45 @@
+.ContestPictureMain{
+    width: 100%;
+}
+
+
+.CorousalCardContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* flex-wrap: wrap; */
+    /* overflow-x: scroll; */
+    overflow: scroll;
+    position: relative;
+    top: -70px;
+    left: 0px;
+}
+
+.CorousalCardContainer::-webkit-scrollbar {
+    display: none;
+  }
+
+@media only screen and (max-width: 840px) {
+    .CorousalCardContainer{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        /* flex-wrap: wrap; */
+        /* overflow-x: scroll; */
+        overflow: scroll;
+        position: relative;
+        top: -50px;
+        left: 0px;
+    }
+}
+
+.H2Heading{
+    text-align: left;
+    margin: 15px;
+}
+
+@media only screen and (max-width: 600px) {
+    .CorousalCardContainer{
+        top: -30px;
+    }
+}

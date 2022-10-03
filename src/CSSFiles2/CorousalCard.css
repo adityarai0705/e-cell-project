@@ -1,0 +1,24 @@
+.CorousalCardBody{
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.288);
+    height: 280px;
+    width: 385px;
+    border-radius: 15px;
+    margin: 10px;
+    overflow: hidden;
+    background-color: white;
+    flex-shrink: 0;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .CorousalCardBody{
+        box-shadow: 0 0 15px rgba(0, 0, 0, 0.288);
+        height: 230px;
+        width: 310px;
+        border-radius: 15px;
+        margin: 10px;
+        overflow: hidden;
+        background-color: white;
+        flex-shrink: 0;
+    }
+}
