@@ -21,15 +21,15 @@ export default function UserProfile(prop) {
                 <p>India</p>
             </div>
             <div className="IconNamePair">
-                <Link to="#"><img src="res/bell.png" width={'22px'} height={'27px'}/></Link>
+                <Link to="#"><img src="res/education.webp" width={'22px'} height={'27px'}/></Link>
                 <p>MNNIT</p>
             </div>
             <div className="IconNamePair">
-                <Link to="#"><img src="res/bell.png" width={'22px'} height={'27px'}/></Link>
+                <Link to="#"><img src="res/github.png" width={'22px'} height={'27px'}/></Link>
                 <p>Test User</p>
             </div>
             <div className="IconNamePair">
-                <Link to="#"><img src="res/bell.png" width={'22px'} height={'27px'}/></Link>
+                <Link to="#"><img src="res/linkedin.png" width={'22px'} height={'27px'}/></Link>
                 <p>test-user</p>
             </div>
         </>
